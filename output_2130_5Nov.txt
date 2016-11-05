@@ -1,0 +1,211 @@
+Print allocation details ?
+ 1 for yes , any other char for no : 1
+29 students have filled yet
+
+Abhishek Panigrahi 		['Abhishek Panigrahi', 'PM1', 'JM1', 'JM2', 'PPD2', 'PPD3']
+PM1 alloted
+
+Ashrujit Ghoshal 		['Ashrujit Ghoshal', 'DM2', 'DM1', 'DRC3', 'AD3', 'DRC1', 'DRC2']
+DM2 alloted
+
+Ritam Dutt 		['Ritam Dutt', 'AM2', 'AM1', 'PG1', 'PG4', 'AM5']
+AM2 alloted
+
+Satyesh Mundra 		['Satyesh Mundra', 'PG3', 'NG1', 'NG3', 'PM1']
+PG3 alloted
+
+Bharadwaj Anurag Abhijit 		['Bharadwaj Anurag Abhijit', 'AD1', 'AD2']
+AD1 alloted
+
+Kushagra Aggarwal 		['Kushagra Aggarwal', 'PG3', 'PG1', 'NG1', 'NG2', 'PM1']
+PG3 full	PG1 alloted
+
+Meghna Sengupta 		['Meghna Sengupta', 'AD2', 'AD1', 'AD3']
+AD2 alloted
+
+Yash Agrawal 		['Yash Agrawal', 'PG1', 'PG3', 'JM1']
+PG1 full	PG3 full	JM1 alloted
+
+Mousam Roy 		['Mousam Roy', 'PPD2']
+PPD2 alloted
+
+Vaishal Shah 		['Vaishal Shah', 'PG4', 'NG1', 'PG2', 'PG3', 'PG1', 'PM1']
+PG4 alloted
+
+Arundhati Banerjee 		['Arundhati Banerjee', 'PM1', 'PG3', 'AM3', 'SS3', 'NG2', 'SB2']
+PM1 full	PG3 full	AM3 alloted
+
+K Basava Raj 		['K Basava Raj', 'NG1', 'NG4', 'NG5', 'NG2', 'PG3', 'PM1']
+NG1 alloted
+
+Sayan Ghosh 		['Sayan Ghosh', 'NG1', 'NG4', 'NG2', 'NG3', 'NG5']
+NG1 full	NG4 alloted
+
+Srinidhi V Bhat 		['Srinidhi V Bhat', 'AD1', 'AD2', 'AD3']
+AD1 alloted
+
+M Tharun 		['M Tharun', 'PM1', 'PG3', 'AM3', 'SS1', 'PPD3', 'NG2']
+PM1 full	PG3 full	AM3 full	SS1 alloted
+
+Sourav Pal 		['Sourav Pal', 'PM1', 'PG4', 'PG1', 'PG2']
+PM1 full	PG4 full	PG1 full	PG2 alloted
+
+Shashank Srivastava 		['Shashank Srivastava', 'RgM1', 'RgM3', 'PB1', 'SPP2', 'DRC2', 'AG2', 'AD2']
+RgM1 alloted
+
+Pranjal Shankhdhar 		['Pranjal Shankhdhar', 'AG1']
+AG1 alloted
+
+Sohan Patro 		['Sohan Patro', 'JM1', 'JM2', 'PB2']
+JM1 full	JM2 alloted
+
+Projjal Chanda 		['Projjal Chanda', 'PG3', 'PG1', 'PG2', 'PG4', 'NG1', 'NG4', 'NG2']
+PG3 full	PG1 full	PG2 full	PG4 full	NG1 full	NG4 full	NG2 alloted
+
+Sayan Mandal 		['Sayan Mandal', 'NG4', 'NG1', 'PPD3', 'NG5']
+NG4 full	NG1 full	PPD3 alloted
+
+Yara Manisha 		['Yara Manisha', 'SB2', 'PG2', 'NG6', 'RgM3']
+SB2 alloted
+
+Dishank Agrawal 		['Dishank Agrawal', 'AG3', 'NG1', 'DRC3', 'RgM3', 'SPP1']
+AG3 alloted
+
+Sahil Rishi 		['Sahil Rishi', 'PG1', 'PG3', 'PG4', 'NG1', 'NG2', 'NG5']
+PG1 full	PG3 full	PG4 full	NG1 full	NG2 full	NG5 alloted
+
+S V Dilip Kumar 		['S V Dilip Kumar', 'DM1', 'DM2', 'DRC2', 'DRC3', 'DRC1']
+DM1 alloted
+
+Avikalp Srivastava 		['Avikalp Srivastava', 'PG3', 'PG1', 'SS1', 'NG3', 'NG6', 'SS3', 'PM1']
+PG3 full	PG1 full	SS1 alloted
+
+Aniket Suri 		['Aniket Suri', 'NG2', 'SB1', 'SB4', 'SS2', 'PPD3']
+NG2 full	SB1 alloted
+
+Kushagra Goel 		['Kushagra Goel']
+
+Vishal Chauhan 		['Vishal Chauhan', 'AG3', 'PPD3']
+AG3 full	PPD3 alloted
+
+
+
++--------------------------+---------+
+|           Name           | Alloted |
++--------------------------+---------+
+|    Abhishek Panigrahi    |   PM1   |
+|     Ashrujit Ghoshal     |   DM2   |
+|        Ritam Dutt        |   AM2   |
+|      Satyesh Mundra      |   PG3   |
+| Bharadwaj Anurag Abhijit |   AD1   |
+|    Kushagra Aggarwal     |   PG1   |
+|     Meghna Sengupta      |   AD2   |
+|       Yash Agrawal       |   JM1   |
+|        Mousam Roy        |   PPD2  |
+|       Vaishal Shah       |   PG4   |
+|    Arundhati Banerjee    |   AM3   |
+|       K Basava Raj       |   NG1   |
+|       Sayan Ghosh        |   NG4   |
+|     Srinidhi V Bhat      |   AD1   |
+|         M Tharun         |   SS1   |
+|        Sourav Pal        |   PG2   |
+|   Shashank Srivastava    |   RgM1  |
+|    Pranjal Shankhdhar    |   AG1   |
+|       Sohan Patro        |   JM2   |
+|      Projjal Chanda      |   NG2   |
+|       Sayan Mandal       |   PPD3  |
+|       Yara Manisha       |   SB2   |
+|     Dishank Agrawal      |   AG3   |
+|       Sahil Rishi        |   NG5   |
+|     S V Dilip Kumar      |   DM1   |
+|    Avikalp Srivastava    |   SS1   |
+|       Aniket Suri        |   SB1   |
+|      Vishal Chauhan      |   PPD3  |
++--------------------------+---------+
+
+
+
+Show remaining options ?
+ 1 for yes , any other char for no : 1
+
+
+
++------+----------+--------+
+| Code | Capacity | Filled |
++------+----------+--------+
+| RgM2 |    1     |   0    |
+| RgM3 |    2     |   0    |
+| DSM1 |    2     |   0    |
+| DM1  |    2     |   1    |
+| AG2  |    1     |   0    |
+| SS3  |    1     |   0    |
+| SS2  |    2     |   0    |
+| PB4  |    1     |   0    |
+| PB1  |    1     |   0    |
+| PB3  |    1     |   0    |
+| PB2  |    1     |   0    |
+| KSR1 |    1     |   0    |
+| KSR2 |    2     |   0    |
+| DRC4 |    1     |   0    |
+| DRC3 |    1     |   0    |
+| DRC2 |    1     |   0    |
+| DRC1 |    1     |   0    |
+| JM3  |    1     |   0    |
+| JM4  |    1     |   0    |
+| BM2  |    1     |   0    |
+| BM3  |    1     |   0    |
+| BM1  |    1     |   0    |
+| BM6  |    1     |   0    |
+| BM7  |    1     |   0    |
+| BM4  |    1     |   0    |
+| BM5  |    1     |   0    |
+| AM1  |    1     |   0    |
+| SC4  |    1     |   0    |
+| SC1  |    1     |   0    |
+| AM4  |    1     |   0    |
+| SC3  |    1     |   0    |
+| SC2  |    1     |   0    |
+| PDG1 |    2     |   0    |
+| RSC1 |    1     |   0    |
+| NG6  |    1     |   0    |
+| NG3  |    1     |   0    |
+| CM2  |    1     |   0    |
+| CM1  |    1     |   0    |
+| SB3  |    1     |   0    |
+| SB4  |    1     |   0    |
+| BM8  |    1     |   0    |
+| BM9  |    1     |   0    |
+| AD2  |    2     |   1    |
+| AD3  |    1     |   0    |
+| AM5  |    1     |   0    |
+| SS4  |    1     |   0    |
+| RM2  |    1     |   0    |
+| RM1  |    1     |   0    |
+| SSL2 |    1     |   0    |
+| SSL3 |    1     |   0    |
+| SSL1 |    1     |   0    |
+| SSL4 |    1     |   0    |
+| SM3  |    1     |   0    |
+| SM2  |    1     |   0    |
+| SM1  |    1     |   0    |
+| SPP4 |    1     |   0    |
+| SPP1 |    1     |   0    |
+| SPP3 |    1     |   0    |
+| SPP2 |    1     |   0    |
+| SD4  |    1     |   0    |
+| SD5  |    1     |   0    |
+| SD1  |    1     |   0    |
+| SD2  |    1     |   0    |
+| SD3  |    1     |   0    |
+| PrM4 |    2     |   0    |
+| PrM1 |    2     |   0    |
+| PrM3 |    2     |   0    |
+| PrM2 |    2     |   0    |
+| RSC2 |    1     |   0    |
+| SKG3 |    1     |   0    |
+| SKG2 |    1     |   0    |
+| SKG1 |    2     |   0    |
+| PPD1 |    1     |   0    |
+| PPD4 |    2     |   0    |
++------+----------+--------+
+74 projects remain

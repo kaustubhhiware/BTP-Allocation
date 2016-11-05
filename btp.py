@@ -56,7 +56,7 @@ def dicttFromcsv(filename):
 		reader = csv.reader(infile)
 		d = d = defaultdict(list)
 		for row in reader:
-			if row[1]=="Code":
+			if row[1]=="Code" or row[1]=="":
 				continue
 
 			d[row[1]].append(int(row[7]))
@@ -67,6 +67,22 @@ def dicttFromcsv(filename):
 			# 0 is the filled value to be used later
 	return d
 
+
+def showRemaining(projects):
+	"""
+		See left courses capacity filled and total
+	"""
+	pros = PrettyTable(['Code','Capacity','Filled'])
+	rem = 0
+	for each in projects:
+
+		if projects[each][0]!=projects[each][2]:
+			pros.add_row([each,projects[each][0],projects[each][2]])
+			rem += 1
+
+	print("\n\n")
+	print(pros)
+	print rem,"projects remain"
 
 
 def allot(projects,people,details):
@@ -111,8 +127,12 @@ def allot(projects,people,details):
 			break
 		
 	# tabulated results are printed
+	print "\n\n"
 	print statsTable
-
+	print "\n\n"
+	remainder = raw_input("Show remaining options ?\n 1 for yes , any other char for no : ")
+	if remainder=="1":
+		showRemaining(projects)
 		
 
 def main():
@@ -120,7 +140,7 @@ def main():
 		Get shit done.
 	"""
 
-	details = raw_input("Print allocation details ? 1 for yes , any other char for no : ")
+	details = raw_input("Print allocation details ?\n 1 for yes , any other char for no : ")
 	projects = dicttFromcsv("Projects.csv")
 	
 	#assumed that Choices.csv is sorted by DR#
