@@ -74,7 +74,7 @@ def showRemaining(projects):
 	"""
 	pros = PrettyTable(['Code','Capacity','Filled'])
 	rem = 0
-	for each in projects:
+	for each in sorted(projects.keys()):
 
 		if projects[each][0]!=projects[each][2]:
 			pros.add_row([each,projects[each][0],projects[each][2]])
