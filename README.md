@@ -1,16 +1,15 @@
 # BTP-Allocation
 
 Python program to allocate BTP for each student by #DR
-
-Name the project list csv as Projects.csv and choices of students as Choices.csv in this folder . Run using 
-
-1.  <pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">pip install prettytable</pre>
-
-2.  Download the csv and save it as Choices.csv in this folder.Remove any choices with brackets.
-(row 27 , col E)
-
-3.  <pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">python btp.py</pre>
+The choices file is now automated download, change the url for your google sheet.
+Thanks to [Rameshwar](https://github.com/zorroblue).
 
 ## Dependencies :
 
 *   prettytable (install using pip install prettytable)
+*	requests  (pip install requests)
+
+Name the project list csv as Projects.csv and choices of students as Choices.csv in this folder.
+You might have to edit the sheets path in download_file() function.
+
+ <pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">python btp.py</pre>

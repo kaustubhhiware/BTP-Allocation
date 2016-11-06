@@ -1,0 +1,125 @@
+Script started on Sunday 06 November 2016 01:30:01 PM 
+Overview of allocation based on 46 students who have filled their choices
++--------------------------+----------------+
+|           Name           |    Alloted     |
++--------------------------+----------------+
+|    Abhishek Panigrahi    |      PM1       |
+|     Ashrujit Ghoshal     |      DM2       |
+|        Ritam Dutt        |      AM2       |
+|      Satyesh Mundra      |      PG3       |
+| Bharadwaj Anurag Abhijit |      AD1       |
+|    Kushagra Aggarwal     |      PG1       |
+|     Meghna Sengupta      |      AD2       |
+|       Yash Agrawal       |      JM1       |
+|        Mousam Roy        |      PPD2      |
+|       Vaishal Shah       |      PG4       |
+|    Arundhati Banerjee    |      AM3       |
+|       K Basava Raj       |      NG1       |
+|       Sayan Ghosh        |      NG4       |
+|     Srinidhi V Bhat      |      AD1       |
+|         M Tharun         |      SS1       |
+|        Sourav Pal        |      PG2       |
+|   Shashank Srivastava    |      RgM1      |
+|    Pranjal Shankhdhar    |      AG1       |
+|       Sohan Patro        |      JM2       |
+|      Projjal Chanda      |      NG2       |
+|       Sayan Mandal       |      NG5       |
+|       Yara Manisha       |      SB2       |
+|     Dishank Agrawal      |      RgM3      |
+|       Sahil Rishi        | Out of choices |
+|     S V Dilip Kumar      |      DM1       |
+|    Avikalp Srivastava    |      NG6       |
+|       Aniket Suri        |      SB1       |
+|      Kushagra Goel       |      SSL3      |
+|      Vishal Chauhan      |      AG3       |
+|  Siddhant Dalbir Singh   |      SS4       |
+|      Dogga Pradeep       |      PB2       |
+|   Rameshwar Bhaskaran    |      AM5       |
+|   Palem Srikanth Reddy   |      DRC1      |
+|      Shubham Sharma      |      SS2       |
+|        Ritvik Raj        |      RgM3      |
+|    Pate Vedant Sanjay    |      DRC4      |
+| Pala Sai Surya Praharsha |      DRC2      |
+|       Madhav Datt        |                |
+|      Prachi Mandil       |      SB4       |
+|       Ishaan Sang        |      BM3       |
+|       Aakash Verma       |  Fill choices  |
+|       Shubham Jain       |                |
+|        Kinsuk Das        |  Fill choices  |
+|        P.P.Akash         |  Fill choices  |
+|       Gulab Arora        |  Fill choices  |
+|        Akhil Jain        |      PPD4      |
++--------------------------+----------------+
+
+Overview of remaining projects : 
++------+----------+--------+
+| Code | Capacity | Filled |
++------+----------+--------+
+| AD2  |    2     |   1    |
+| AD3  |    1     |   0    |
+| AG2  |    1     |   0    |
+| AM1  |    1     |   0    |
+| AM4  |    1     |   0    |
+| BM1  |    1     |   0    |
+| BM2  |    1     |   0    |
+| BM4  |    1     |   0    |
+| BM5  |    1     |   0    |
+| BM6  |    1     |   0    |
+| BM7  |    1     |   0    |
+| BM8  |    1     |   0    |
+| BM9  |    1     |   0    |
+| CM1  |    1     |   0    |
+| CM2  |    1     |   0    |
+| DM1  |    2     |   1    |
+| DRC3 |    1     |   0    |
+| DSM1 |    2     |   0    |
+| JM3  |    1     |   0    |
+| JM4  |    1     |   0    |
+| KSR1 |    1     |   0    |
+| KSR2 |    2     |   0    |
+| NG3  |    1     |   0    |
+| PB1  |    1     |   0    |
+| PB3  |    1     |   0    |
+| PB4  |    1     |   0    |
+| PDG1 |    2     |   0    |
+| PPD1 |    1     |   0    |
+| PPD3 |    2     |   0    |
+| PPD4 |    2     |   1    |
+| PrM1 |    2     |   0    |
+| PrM2 |    2     |   0    |
+| PrM3 |    2     |   0    |
+| PrM4 |    2     |   0    |
+| RM1  |    1     |   0    |
+| RM2  |    1     |   0    |
+| RSC1 |    1     |   0    |
+| RSC2 |    1     |   0    |
+| RgM2 |    1     |   0    |
+| SB3  |    1     |   0    |
+| SC1  |    1     |   0    |
+| SC2  |    1     |   0    |
+| SC3  |    1     |   0    |
+| SC4  |    1     |   0    |
+| SD1  |    1     |   0    |
+| SD2  |    1     |   0    |
+| SD3  |    1     |   0    |
+| SD4  |    1     |   0    |
+| SD5  |    1     |   0    |
+| SKG1 |    2     |   0    |
+| SKG2 |    1     |   0    |
+| SKG3 |    1     |   0    |
+| SM1  |    1     |   0    |
+| SM2  |    1     |   0    |
+| SM3  |    1     |   0    |
+| SPP1 |    1     |   0    |
+| SPP2 |    1     |   0    |
+| SPP3 |    1     |   0    |
+| SPP4 |    1     |   0    |
+| SS1  |    2     |   1    |
+| SS2  |    2     |   1    |
+| SS3  |    1     |   0    |
+| SSL1 |    1     |   0    |
+| SSL2 |    1     |   0    |
+| SSL4 |    1     |   0    |
++------+----------+--------+
+65 projects remain
+Script ended on Sunday 06 November 2016 01:30:01 PM 

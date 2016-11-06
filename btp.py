@@ -17,17 +17,28 @@ def listFromcsv(filename):
 	l = list()
 	i = 0 # dr number - 1
 	count = 0
+
+	bad_count = 0 # people who haven't filled yet
+	bad_threshold = 5 # might vary for you acc. to your DR
+
 	with open(filename, 'rb') as f:
 		reader = csv.reader(f)
 		for row in reader:
 			if row[1]=="Name":
 				continue
 
-			if row[2]!="":
-				count += 1
+			if row[2]=="":
+				bad_count += 1
+
+			# upto 5 bad entries accepted
+			if bad_count == bad_threshold:
+				break
+
+			count += 1
 			
 	print "Overview of allocation based on",count,"students who have filled their choices"
-
+	
+	#count = 123 # total number of students to be alloted
 	lister = [[] for i in range(count)] # gives list for each student who has filled priorities
 
 	i = 0 
@@ -40,6 +51,8 @@ def listFromcsv(filename):
 				break
 			j=2
 			lister[i].append(row[1])
+			if row[j]=='':
+				lister[i].append("")
 			#print row[1],len(row)
 			while(1):
 				if row[j]=='' :# last choice
@@ -110,9 +123,13 @@ def allot(projects,people,details):
 			#print student[i]
 
 			# student[i] is i-1 th priority
-			if student[i] not in projects: 
-				statsTable.add_row([student[0],"tumse na ho payega"])
+			if student[i]=="":
+				statsTable.add_row([student[0],"Fill choices"])
 				break
+			elif student[i] not in projects: 
+				statsTable.add_row([student[0],""])
+				break
+
 			thisProject = projects[student[i]]
 			# again , trusting people fill proper codes
 
@@ -125,7 +142,7 @@ def allot(projects,people,details):
 				if i==len(student)-1:
 					if(details=="1"):
 							print "Tumse na ho payega"
-					statsTable.add_row([student[0],"tumse na ho payega"])
+					statsTable.add_row([student[0],"Out of choices"])
 				continue # look for next 
 		
 			# if here , it means student gets it
