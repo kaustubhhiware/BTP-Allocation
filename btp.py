@@ -1,6 +1,7 @@
 import csv
 from collections import defaultdict
 from prettytable import PrettyTable
+import datetime
 
 
 def listFromcsv(filename):
@@ -17,7 +18,7 @@ def listFromcsv(filename):
 			if row[2]!="":
 				count += 1
 			
-	print count,"students have filled yet"
+	print "Overview of allocation based on",count,"students who have filled their choices"
 
 	lister = [[] for i in range(count)] # gives list for each student who has filled priorities
 
@@ -80,7 +81,7 @@ def showRemaining(projects):
 			pros.add_row([each,projects[each][0],projects[each][2]])
 			rem += 1
 
-	print("\n\n")
+	print "\nOverview of remaining projects : "
 	print(pros)
 	print rem,"projects remain"
 
@@ -127,12 +128,8 @@ def allot(projects,people,details):
 			break
 		
 	# tabulated results are printed
-	print "\n\n"
 	print statsTable
-	print "\n\n"
-	remainder = raw_input("Show remaining options ?\n 1 for yes , any other char for no : ")
-	if remainder=="1":
-		showRemaining(projects)
+
 		
 
 def main():
@@ -140,7 +137,11 @@ def main():
 		Get shit done.
 	"""
 
-	details = raw_input("Print allocation details ?\n 1 for yes , any other char for no : ")
+	now = datetime.datetime.now()
+	print "Script started on "+now.strftime("%A %d %B %Y %I:%M:%S %p %Z")
+	#deprecated for the time being
+	details = 0
+	#details = raw_input("Print allocation details ?\n 1 for yes , any other char for no : ")
 	projects = dicttFromcsv("Projects.csv")
 	
 	#assumed that Choices.csv is sorted by DR#
@@ -150,6 +151,12 @@ def main():
 
 	#print len(people)
 	allot(projects,people,details)
+
+	#remainder = raw_input("Show remaining options ?\n 1 for yes , any other char for no : ")
+	#if remainder=="1":
+	showRemaining(projects)
+	now = datetime.datetime.now()
+	print "Script ended on "+now.strftime("%A %d %B %Y %I:%M:%S %p %Z")
 
 
 if __name__=="__main__":
