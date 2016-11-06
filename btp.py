@@ -2,7 +2,15 @@ import csv
 from collections import defaultdict
 from prettytable import PrettyTable
 import datetime
+import requests
 
+def download_file():
+    response = requests.get("https://docs.google.com/spreadsheets/d/1waz0KHy6CiuNNqzk4uo65bGSbXS5_fJHbHs5p5SPYUQ/export?format=csv&id=1waz0KHy6CiuNNqzk4uo65bGSbXS5_fJHbHs5p5SPYUQ");
+    assert response.status_code == 200, 'Wrong status code'
+    #print response.content
+    with open("Choices.csv","wb") as f:
+        f.write(response.content)
+    print "File written successfully"    
 
 def listFromcsv(filename):
 	
@@ -136,8 +144,11 @@ def main():
 	"""
 		Get shit done.
 	"""
+	print "Downloading..."
+        download_file()
+        print "The file has been downloaded"
 
-	now = datetime.datetime.now()
+        now = datetime.datetime.now()
 	print "Script started on "+now.strftime("%A %d %B %Y %I:%M:%S %p %Z")
 	#deprecated for the time being
 	details = 0
