@@ -1,0 +1,131 @@
+Script started on Thursday 17 November 2016 01:34:46 PM 
+Overview of allocation based on 69 students who have filled their choices
++-----------------------------+--------------+
+|             Name            |   Allotted   |
++-----------------------------+--------------+
+|      Abhishek Panigrahi     |     PM1      |
+|       Ashrujit Ghoshal      |     DM2      |
+|          Ritam Dutt         |     AM2      |
+|        Satyesh Mundra       |     PG1      |
+|   Bharadwaj Anurag Abhijit  |     AD1      |
+|      Kushagra Aggarwal      |     PG3      |
+|       Meghna Sengupta       |     AD2      |
+|         Yash Agrawal        |     PG2      |
+|          Mousam Roy         |     PPD2     |
+|         Vaishal Shah        |     PG4      |
+|      Arundhati Banerjee     |     PM2      |
+|         K Basava Raj        |     NG1      |
+|         Sayan Ghosh         |     NG4      |
+|       Srinidhi V Bhat       |     AD1      |
+|           M Tharun          |     AM3      |
+|          Sourav Pal         |     NG2      |
+|     Shashank Srivastava     |     RgM1     |
+|      Pranjal Shankhdhar     |     AG1      |
+|         Sohan Patro         |     JM1      |
+|        Projjal Chanda       |     NG5      |
+|         Sayan Mandal        |     SS1      |
+|         Yara Manisha        |     SB2      |
+|       Dishank Agrawal       |     RgM3     |
+|         Sahil Rishi         |     PPD4     |
+|       S V Dilip Kumar       |     DM1      |
+|      Avikalp Srivastava     |     PM3      |
+|         Aniket Suri         |     PM4      |
+|        Kushagra Goel        |     SSL3     |
+|        Vishal Chauhan       |     AG3      |
+|    Siddhant Dalbir Singh    |     SS4      |
+|        Dogga Pradeep        |     SC2      |
+|     Rameshwar Bhaskaran     |     AM5      |
+|     Palem Srikanth Reddy    |     JM2      |
+|        Shubham Sharma       |     SB1      |
+|          Ritvik Raj         |     RgM3     |
+|      Pate Vedant Sanjay     |     DRC1     |
+|   Pala Sai Surya Praharsha  |     DRC2     |
+|         Madhav Datt         |     JM4      |
+|        Prachi Mandil        |     SB4      |
+|         Ishaan Sang         |     SC4      |
+|         Aakash Verma        |     PPD3     |
+|         Shubham Jain        |     PPD3     |
+|          Kinsuk Das         |     PB2      |
+|          P.P.Akash          |     SS1      |
+|         Gulab Arora         |     SKG1     |
+|          Akhil Jain         |     SC1      |
+|         Apurv Kumar         |     SS3      |
+|      Tejaswin Kopparty      |     DRC3     |
+|    Chaparala Jai Krishna    |     PB4      |
+|       Vaibhav Agarwal       |     JM3      |
+|        Aditya Bhagwat       |     AM1      |
+|       Arijit Panigrahy      |     RM1      |
+|            Kunal            |     SC3      |
+|  Siddharrth Priyadharsan M  |     AB2      |
+|       Rajarshi Haldar       |     BM9      |
+|        Avinash Gupta        |     AB2      |
+|  Gutha Sai Bharath Chandra  |     RSC1     |
+|         Aditya Jain         |     AB1      |
+|    Ponnada Harshavardhan    |     SKG1     |
+|      T Vijaya Harshitha     |     DRC4     |
+|        Midatala Surya       |     SSL2     |
+|    Vuyyuru Praveen Vamsi    |     SSL4     |
+|        Asket Agarwal        |     SKG2     |
+|   Hiware Kaustubh Narendra  |     BM4      |
+| Utkarsh Umesh Parasrampuria | Fill choices |
+|   Krishang Sudhir Garodia   | Fill choices |
+|        Shubham Singh        | Fill choices |
+|        Shubham Kumar        | Fill choices |
++-----------------------------+--------------+
+
+Overview of remaining projects : 
++------+----------+--------+-------------+----------------+
+| Code | Capacity | Filled | Prof filled | Prof available |
++------+----------+--------+-------------+----------------+
+| AB1  |    2     |   1    |      3      |       Yes      |
+| AD2  |    2     |   1    |      3      |       Yes      |
+| AD3  |    1     |   0    |      3      |       Yes      |
+| AG2  |    1     |   0    |      2      |       Yes      |
+| AM4  |    1     |   0    |      4      |      X NO      |
+| BM1  |    1     |   0    |      2      |       Yes      |
+| BM2  |    1     |   0    |      2      |       Yes      |
+| BM3  |    1     |   0    |      2      |       Yes      |
+| BM5  |    1     |   0    |      2      |       Yes      |
+| BM6  |    1     |   0    |      2      |       Yes      |
+| BM7  |    1     |   0    |      2      |       Yes      |
+| BM8  |    1     |   0    |      2      |       Yes      |
+| CM1  |    1     |   0    |      0      |       Yes      |
+| CM2  |    1     |   0    |      0      |       Yes      |
+| DM1  |    2     |   1    |      2      |       Yes      |
+| DSM1 |    2     |   0    |      0      |       Yes      |
+| KSR1 |    1     |   0    |      0      |       Yes      |
+| KSR2 |    2     |   0    |      0      |       Yes      |
+| NG3  |    1     |   0    |      4      |      X NO      |
+| NG6  |    1     |   0    |      4      |      X NO      |
+| PB1  |    1     |   0    |      2      |       Yes      |
+| PB3  |    1     |   0    |      2      |       Yes      |
+| PDG1 |    2     |   0    |      0      |       Yes      |
+| PPD1 |    1     |   0    |      4      |      X NO      |
+| PPD4 |    2     |   1    |      4      |      X NO      |
+| PrM1 |    2     |   0    |      0      |       Yes      |
+| PrM2 |    2     |   0    |      0      |       Yes      |
+| PrM3 |    2     |   0    |      0      |       Yes      |
+| PrM4 |    2     |   0    |      0      |       Yes      |
+| RM2  |    1     |   0    |      1      |       Yes      |
+| RSC2 |    1     |   0    |      1      |       Yes      |
+| RgM2 |    1     |   0    |      3      |       Yes      |
+| SB3  |    1     |   0    |      3      |       Yes      |
+| SD1  |    1     |   0    |      0      |       Yes      |
+| SD2  |    1     |   0    |      0      |       Yes      |
+| SD3  |    1     |   0    |      0      |       Yes      |
+| SD4  |    1     |   0    |      0      |       Yes      |
+| SD5  |    1     |   0    |      0      |       Yes      |
+| SKG3 |    1     |   0    |      3      |       Yes      |
+| SM1  |    1     |   0    |      0      |       Yes      |
+| SM2  |    1     |   0    |      0      |       Yes      |
+| SM3  |    1     |   0    |      0      |       Yes      |
+| SPP1 |    1     |   0    |      0      |       Yes      |
+| SPP2 |    1     |   0    |      0      |       Yes      |
+| SPP3 |    1     |   0    |      0      |       Yes      |
+| SPP4 |    1     |   0    |      0      |       Yes      |
+| SS2  |    2     |   0    |      4      |      X NO      |
+| SSL1 |    1     |   0    |      3      |       Yes      |
++------+----------+--------+-------------+----------------+
+48 projects remain
+42 projects remain with available professors
+Script ended on Thursday 17 November 2016 01:34:46 PM 

@@ -132,7 +132,7 @@ def allot(projects,people,profs,details):
 		profs has the count for prof . At max 4 per prof for CG > 7
 	"""
 
-	statsTable = PrettyTable(['Name','Alloted'])
+	statsTable = PrettyTable(['Name','Allotted'])
 	for student in people: # student has name and all choices of him/her
 		
 		if(details=="1"):
@@ -146,7 +146,9 @@ def allot(projects,people,profs,details):
 				statsTable.add_row([student[0],"Fill choices"])
 				break
 			elif student[i] not in projects: 
-				statsTable.add_row([student[0],"Invalid choice"+str(i)])
+				# statsTable.add_row([student[0],"Invalid choice"+str(i)])
+				print "Invalid choice ",student[i],"for",student[0]
+				continue
 				break
 
 			thisProject = projects[student[i]]
@@ -198,7 +200,7 @@ def main():
         now = datetime.datetime.now()
 	print "Script started on "+now.strftime("%A %d %B %Y %I:%M:%S %p %Z")
 	#deprecated for the time being change 0 to 1 for detailed view
-	details = "0"
+	details = ""
 
 	#details = raw_input("Print allocation details ?\n 1 for yes , any other char for no : ")
 	projects,profs = dicttFromcsv("Projects.csv")
