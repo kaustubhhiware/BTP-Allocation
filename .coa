@@ -1,0 +1,12 @@
+[default]
+bears = LineCountBear, FilenameBear, coalaBear, InvalidLinkBear
+files = **.md, **.py
+ignore, max_lines_per_file = 
+[markdown]
+bears = MarkdownBear, LineLengthBear, SpaceConsistencyBear, KeywordBear, LicenseCheckBear
+files = **.md
+language = 
+use_spaces = true
+[python]
+bears = PEP8Bear
+files = **.py
